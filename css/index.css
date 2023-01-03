@@ -1,0 +1,755 @@
+/*
+Amarelo: FEE250
+Cinza claro: 575759
+Cinza escuro: 434345
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #efefef;
+}
+
+#header-topo {
+    height: 80px;
+    width: 100%;
+    background-color: #10bd59;
+
+}
+
+#header-topo h1 {
+    text-align: center;
+    color: #ffffff;
+    text-shadow: #575759 5px 5px;
+}
+
+#header-topo img {
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    width: 70px;
+}
+
+nav {
+    background-color: #10bd59;
+    height: 40px;
+    width: 100%;
+    box-shadow: 3px 3px 1px 0px rgba(0, 0, 0, 0.248);
+}
+
+nav ul {
+    padding-top: 5px;
+    text-align: center;
+}
+
+nav ul li {
+    color: white;
+    list-style: none;
+    display: inline;
+}
+
+nav ul li a {
+    padding: 30px;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+nav ul li a:hover{
+    text-shadow: 2px 2px 2px rgb(40, 39, 39) ;
+    color:#07f76b;
+    transition: 0.3s;
+    
+}
+
+main{
+    margin-left: 10px;
+}
+
+.header-artigo{
+    text-align: center;
+}
+
+article h4, h5{
+    text-align: center;
+    margin: 5px;
+}
+
+article p{
+    text-align: center;
+    font-size: medium;
+    margin: 15px;
+}
+
+article {
+    background-color: #efefef;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.112);
+    width: 70%;
+    text-align: justify;
+    margin-top: 10px;
+}
+
+article p, h1, h3 {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+article h4, h5{
+    text-align: center;
+    margin: 5px;
+}
+
+article p{
+    text-align: center;
+    font-size: medium;
+    margin: 15px;
+}
+
+.footer-artigo{
+   margin: 10px;
+}
+
+/* Produtos - main */
+
+.Produto {
+    background-color: #efefef;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.112);
+    width: 70%;
+    padding: 20px;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.base-produto{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    
+}
+
+
+
+.Produto h3{
+    position: relative;
+    left: 45%;
+    bottom: 10px;
+    color:#000000;
+}
+
+.Produto h4, p{
+    text-align: center;
+    font-size: small;
+}
+
+.Produto b{
+    color: #07f76b;
+}
+
+/* Produtos - conteudo */
+
+/* Produtos - conteudo - Pulga*/
+
+.Produto .pulga{
+    border: 1px solid rgb(223, 223, 223);
+    background-color: #ffffff;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.24);
+    width: 200px;
+    height: 300px;
+    margin-right: 10px;
+    border-radius: 5px;
+    padding: 5px;
+    
+}
+
+.Produto .pulga:hover{
+    transform: scale(1.02);
+    cursor: pointer;
+    box-shadow: 1px 1px 5px 1px #07f76b;
+}
+
+.Produto .pulga img {
+    position: relative;
+    left: 25%;
+    margin-top: 10px ;
+    margin-bottom:  10px;
+    width: 100px;
+    height: 100px;
+}
+
+.Produto .pulga h4{
+    text-align: center;
+    margin-right: 5px;
+    position: relative;
+    top: 10px;
+}
+
+.Produto .pulga li{
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 10px;
+    text-align: left;
+}
+
+/* Produtos - conteudo - Pulga*/
+
+/* Produtos - conteudo - shampoo*/
+
+.Produto .shampoo{
+    border: 1px solid rgb(223, 223, 223);
+    background-color: #ffffff;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.24);
+    width: 200px;
+    height: 300px;
+    margin-right: 10px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.Produto .shampoo:hover{
+    transform: scale(1.02);
+    cursor: pointer;
+    box-shadow: 1px 1px 5px 1px #07f76b;
+}
+
+.Produto .shampoo img{
+    position: relative;
+    left: 25%;
+    margin-top: 10px ;
+    margin-bottom:  10px;
+    width: 100px ;
+    height: 100px ;
+   
+}
+
+.Produto .shampoo h4{
+    text-align: center;
+    margin-right: 5px;
+    position: relative;
+    top: 20px;
+}
+
+.Produto .shampoo li{
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 10px;
+    text-align: left;
+}
+
+/* Produtos - conteudo - brinquedo*/
+.Produto .brinquedo{
+    border: 1px solid rgb(223, 223, 223);
+    background-color: #ffffff;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.24);
+    width: 200px;
+    height: 300px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.Produto .brinquedo:hover{
+    transform: scale(1.02);
+    cursor: pointer;
+    box-shadow: 1px 1px 5px 1px #07f76b;
+}
+
+.Produto .brinquedo img{
+    position: relative;
+    left: 25%;
+    margin-top: 10px ;
+    margin-bottom:  10px;
+    width: 100px ;
+    height: 100px ;
+
+}
+
+.Produto .brinquedo h4{
+    text-align: center;
+    margin-right: 5px;
+    position: relative;
+    top: 19px;
+}
+
+.Produto .brinquedo li{
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 10px;
+    text-align: left;
+}
+
+/*Serviços*/
+
+.Servico{
+    background-color: #efefef;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.112);
+    width: 70%;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 500px;
+    display: flex;
+    padding-top: 20px;
+    
+}
+
+.Servico h3{
+    text-align: center;
+    position: relative;
+    bottom: 24px;
+    left: 44%;
+}
+
+.Servico img{
+    width: 80%;
+    height: 180px;
+
+}
+
+/*Serviços - banho e tosa*/
+
+.banhoTosa{
+    border: 1px solid rgb(223, 223, 223);
+    background-color: #ffffff;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.24);
+    width: 40%;
+    border-radius: 10px;
+    margin: 5px;
+    position: relative;
+    right: 50px;
+    padding: 20px;
+}
+
+.banhoTosa p{
+   text-align: center;
+   
+}
+
+
+ .banhoTosa img{
+    top: 20px;
+    position: relative;
+    left: 10%;
+    right: 50%;
+    border-radius: 5px;
+   
+}
+
+
+.banhoTosa a{
+   position: absolute;
+   right: 15%;
+    left: 16%;
+   border-radius: 10px;
+   background-color: #10bd59;
+   top: 85%;
+   padding: 10px;
+   text-decoration: none;
+   color: white;
+   transition: 0.3s;
+}
+
+.banhoTosa a:hover{
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.381);
+    background-color: #07f76b;
+}
+
+.Servico div h4{
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+
+.Servico div p{
+    position: relative;
+    top: 40px;
+}
+
+
+/*Serviços - consultas*/
+
+.consultas{
+    border: 1px solid rgb(223, 223, 223);
+    background-color: #ffffff;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.24);
+    width: 40%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+    margin:5px;
+    position: relative;
+    right: 50px;
+    
+}
+
+.consultas p{
+    text-align: center;
+}
+
+.consultas img{
+    top: 20px;
+    position: relative;
+    left: 10%;
+    right: 50%;
+    border-radius: 5px;
+    
+}
+
+.consultas a {
+    position: absolute;
+    right: 15%;
+    left: 16%;
+    border-radius: 10px;
+    background-color: #10bd59;
+    top: 85%;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+
+.consultas a:hover{
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.381);
+    background-color: #07f76b;
+}
+
+/*Conteudo lateral*/
+
+aside{
+ margin: 5px;
+  width: 20%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  position: relative;
+  right: 40px;
+  padding: 10px;
+  display: inline-block;
+}
+/* conteudo lateral - Propagandas*/
+
+.Propaganda{
+    background-color: #efefef;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.112);
+    display: inline-block;
+    height: 100%;
+}
+
+.Propaganda img{
+    position: relative;
+    left: 60px;
+    margin: 5px;
+
+}
+
+/*conteudo lateral - Parceirias*/
+
+.Parceiras{
+    display: inline-block;
+    background-color: #efefef;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.112);
+    margin-top: 5px;
+    height: 100%;
+    width: 100%;
+}
+
+ 
+aside .Parceiras img{
+    position: relative;
+    
+    left: 2px;
+}
+
+/*Conteudo final da pagina*/
+
+footer .barra-footer{
+    height: 140px;
+    width: 100%;
+    background-color: #10bd59; ;
+}
+
+footer .barra-footer p{
+    position: relative;
+    top: 15px;
+    margin: 10px ;
+    text-align: center;
+    font-size: small;
+    
+}
+
+/*Responsividade*/
+
+@media(max-width:1280px) and (min-width:1111px){
+ /*produtos*/
+
+ .Produto h3{
+     position: relative;
+     right: 40%;
+ }
+
+    .Produto .pulga{
+        left: 10px;
+    }
+
+    .Produto .shampoo{
+        left: 10px;
+    }
+
+    .Produto .brinquedo{
+        left: 10px;
+    }
+
+    /*serviços*/
+
+    .Servico img{
+        width: 75%;
+    }
+
+    /*conteudo lateral*/
+
+
+    aside .Propaganda img{
+       left: 17%;
+       width: 60%;
+       height: 10%;
+    }
+
+    aside .Parceiras img{
+        left: 17%;
+        width: 60%;
+        height: 10%;
+     }
+
+
+
+}
+
+@media(max-width:1110px) and (max-width: 1002px){
+    .Produto h3{
+        position: relative;
+        left: 20%;
+    }
+}
+
+@media(max-width:1110px){
+
+    /*Produto*/
+
+    .Produto h3{
+        position: relative;
+        right:41%;
+    }
+
+    .Produto .pulga{
+        position: relative;
+        left: 1%;
+    }
+
+    .Produto .shampoo{
+        position: relative;
+        left: 1%;
+    }
+
+    .Produto .brinquedo{
+        position: relative;
+        left: 1%;
+    }
+
+    .Produto .shampoo h4{
+        position: relative;
+        top: 47px;
+    }
+
+    /*Serviço*/
+
+    .Servico img{
+        width: 80%
+    }
+
+    /*conteudo lateral*/
+
+    aside .Propaganda img{
+        left: 17%;
+        width: 60%;
+        height: 10%;
+     }
+
+     aside .Parceiras img{
+        left: 17%;
+        width: 70%;
+        height: 10%;
+     }
+}
+
+@media(max-width:1000px){
+
+    /*Produtos*/
+    .base-produto{
+        display: inline-block;
+        align-items: center;
+        padding: 50px;
+    }
+
+    .Produto h3{
+        margin-left: 22%;
+    }
+
+    .Produto .pulga{
+        width: 95% ;
+        margin-top: 5px;
+    }
+
+    .Produto .pulga img{
+        position: relative;
+        left: 40% ;
+    }
+
+    .Produto .shampoo{
+        width: 95% ;
+        margin-top: 5px;
+    }
+
+    .Produto .shampoo img{
+        position: relative;
+        left: 40% ;
+    }
+
+    .Produto .brinquedo{
+        width: 95% ;
+        margin-top: 5px;
+        margin-left: none;
+    }
+
+    .Produto .brinquedo img{
+        position: relative;
+        left: 40% ;
+        
+    }
+
+    .Produto .shampoo h4{
+        width: 95% ;
+    }
+
+    /*Serviços*/
+
+    .Servico{
+        display: inline-block;
+    }
+
+    .Servico h3{
+        text-align: center;
+        position: relative;
+        left: 1%;
+    }
+
+
+    .Servico{
+        height: 900px;
+    }
+
+    .Servico .banhoTosa {
+        width: 95%;
+        height: 50%;
+        left: 1%;
+    }
+
+    .Servico .consultas {
+        width: 95%;
+        left: 1%;
+        height:45%;
+    }
+
+    .Servico img{
+        max-width: 50%;
+        min-width: 30% ;
+        height: 50% ;
+        margin-left: 15%;
+    }
+
+    /*conteudo lateral*/
+
+
+    .Propaganda{
+        height: 500px;
+    }
+
+    aside .Parceiras{
+      
+    }
+
+    
+}
+
+@media(max-width:584px){
+
+    /*Produntos*/
+
+    .Produto .pulga img{
+        position: relative;
+        left: 25%;
+    }
+
+    .Produto .shampoo img{
+        position: relative;
+        left: 25%;
+    }
+
+    .Produto .shampoo h4{
+        position: relative;
+        top: 5%;
+    }
+
+    .Produto .brinquedo img {
+        position: relative;
+        left: 25%;
+    }
+
+    /*Serviço*/
+
+    .Servico{ 
+        height: 1200px;
+    }
+    .Servico .banhoTosa{
+        height: 52%;
+        padding: 40px;
+    }
+
+    .Servico img{
+        min-width: 50%;
+        height: 30%;
+
+    }
+    /*FOTTER*/
+      .barra-footer{
+         height: 800px;
+     }
+     /*NAV*/
+    nav ul {
+       display: flex;
+
+    }
+
+    nav ul li a{
+        font-size: 90%;
+        padding: 15px;
+    }
+
+    /*conteudo lateral*/
+
+    aside .Propaganda{
+        width: 100%;
+    }
+
+}
+
